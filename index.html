@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Order</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/d1a6249b79.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+    <audio id="myAudio" src="ofts1.mp3" preload="auto">
+    </audio>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-image: url('space.jpg'); background-size: cover;">
+    <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars w3-text-white" style="background-image: url('RedWave.jpg');"></i></a>
+    
+   
+    
+    <a href="ofts2.html"><i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center w3-text-white'style='font-size:36px;'></i></a>
+    <!--<a><i class=" w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> -->
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white" style="font-size:36px" onclick="myFunction4()">find_in_page</i>
+    <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons w3-text-white " style="font-size:36px" onclick="myFunction2()">brightness_6</i>
+      
+    <!--  <audio controls autoplay>
+  <source src="mol7.mp3" type="audio/mpeg">
+ </audio>
+    -->
+
+    
+   
+    
+    <!--
+     <btn class="w3-bar-item w3-button w3-padding-large w3-black w3-badge" onClick="togglePlay()">Audio</btn>   
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="/MOL/mol1.html" class="w3-bar-item w3-button w3-padding-large">More On Life</a>
+    <a href="/ral/index.html" class="w3-bar-item w3-button w3-padding-large">R & L</a>
+    <a href="/gpfm/index.html" class="w3-bar-item w3-button w3-padding-large">Gods Plan For Man</a>
+    <a href="/cdnh/index.html" class="w3-bar-item w3-button w3-padding-large">The Curse is Death Not Hell</a>
+    <a href="/fab/index.html" class="w3-bar-item w3-button w3-padding-large">Flesh And Bone</a>
+    <a href="/pe/index.html" class="w3-bar-item w3-button w3-padding-large">Pauls Error</a>
+    <a href="/hlm/index.html" class="w3-bar-item w3-button w3-padding-large">Her Last Message</a>
+    <a href="/prayer/index.html" class="w3-bar-item w3-button w3-padding-large">Prayer</a>
+    <a href="/lod/index.html" class="w3-bar-item w3-button w3-padding-large">Life Of Daniel</a>
+    <a href="/HFM/index.html" class="w3-bar-item w3-button w3-padding-large">Her First Message</a>
+    <a href="/bttw/index.html" class="w3-bar-item w3-button w3-padding-large">Believe The Third Work</a>
+    <a href="/fgp/index.html" class="w3-bar-item w3-button w3-padding-large">Life: Its the Father's Good Pleasure</a>
+
+  </div>
+  
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:20px 16px 5px;  background-image: url('space.jpg');background-size: cover;">
+  <p class="w3-margin w3-jumbo w3-padding-16 w3-text-white">The Order For The Sons Of God</p>
+  
+  <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+</header>
+
+<!-- First Grid -->
+
+<div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
+
+    
+
+    <p class="w3-opacity"><i>“If you have any intention of not going all of the way, you'd better not hear the message.”.</i></p>
+
+    <p class="w3-xlarge w3-margin-top w3-text-white">Rev. Rose M. Aluli</p>
+       
+    <p class="w3-opacity"><i>This message was given to the Church on July 31, 1979.</i></p>
+
+    
+    <p class="w3-justify">This is not what you call a hard message.  It is just absolute facts of the Bible.  I want you all to relax.  It is just strictly scriptures of what God demands 
+      of Sons.</p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 2:20-21</strong><strong class="w3-text-light-blue"> For I have no man likeminded, who will naturally care for your state. For 
+      all seek their own, not the things which are Jesus Christ's.</strong> Now is that the talk for a Son? That is a different realm because the Sons will not seek their own, but they will 
+      seek everything for Jesus Christ and of him, and for others.<strong class="w3-text-light-blue"> For all seek their own, not the things which are Jesus Christ's.</strong></p>
+
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 2:27</strong><strong class="w3-text-light-blue"> For indeed he</strong> Timothy<strong class="w3-text-light-blue"> was sick 
+      nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow.</strong></p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 2:30</strong><strong class="w3-text-light-blue"> Because for the work of Christ</strong> Speaking of Timothy.
+      <strong class="w3-text-light-blue"> he was nigh unto death, not regarding his life, to supply your lack of service toward me.</strong> He was working so hard for the cause of Christ that 
+      he neglected the care of his own body, and it almost took his life.</p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 3:1-10</strong><strong class="w3-text-light-blue"> Finally, my brethren, rejoice in the Lord. To write the same things to you, 
+      to me indeed is not grievous, but for you it is safe. Beware of dogs, beware of evil workers, beware of the concision. For we are the circumcision,</strong> or Hebrews
+      <strong class="w3-text-light-blue"> which worship God in the spirit, and rejoice in Christ Jesus, and have no confidence in the flesh.</strong> He had no confidence, not even in his own 
+      flesh.<strong class="w3-text-light-blue"> Though I might also have confidence in the flesh. If any other man thinketh that he hath whereof he might trust in the flesh, I more: 
+      Circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews; as touching the law, a Pharisee;</strong> He had a lot to boast of.  Amen.  
+      He was a true Hebrew, Amen, of the tribe of Benjamin.<strong class="w3-text-light-blue"> Concerning zeal,</strong> Now here is where one scripture says they had zeal without knowledge.  
+      And he had a zeal without knowledge, or understanding.<strong class="w3-text-light-blue"> persecuting the church</strong> He thought he was doing God a service because he thought 
+      Christianity was false and Christ was not true;<strong class="w3-text-light-blue"> touching the righteousness which is in the law, blameless.</strong> Concerning the law he was 
+      blameless.  He walked absolutely after the law.  We don’t walk after Christ in that kind of perfection, and here he was, walking absolutely pure after the law.
+      <strong class="w3-text-light-blue"> But what things were gain to me, those I counted loss for Christ.</strong> Now do not tell me that he did not have to do some changing and give some 
+      things up.  Everything of his past had to go, all of his teachings.  And he sat at the feet of Gamaliel, the greatest teacher of his time.<strong class="w3-text-light-blue"> Yea 
+      doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that 
+      I may win Christ,</strong> I hope we are getting a hold of this because we can do no less as Sons.  We can do no less.  No less than that.  He said ‘for the excellency of the knowledge 
+      of Christ Jesus.’  Amen.<strong class="w3-text-light-blue"> And be found in him, not having mine own righteousness,</strong> That is what he had under the law, was his own 
+      righteousness.<strong class="w3-text-light-blue"> which is of the law, but that which is through the faith of Christ,</strong> Not faith in Christ but the faith of Christ because he 
+      followed after Christ in the faith that Christ had in the Father, knowing that he was the Son of God.  And we have to know who we are.  Amen.  We are called and chosen Sons of 
+      God.<strong class="w3-text-light-blue"> the righteousness which is of God by faith: That I may know him, and the power of his resurrection, and the fellowship of his sufferings, being 
+      made conformable unto his death;</strong> We want to know him after his resurrection with all the power, but we do not want the suffering.  Am I right?  But he was desiring the suffering 
+      because he knew that through suffering he could attain.  Now suffering in the flesh alone, without the Spirit or without following Christ, to suffer the reproach of Christ, unless he 
+      followed the Spirit into these places, it would have been accounted nothing unto him.  But he was seeking after this power of his resurrection and the fellowship of his suffering that he 
+      might be made conformable or be formed into that Christ like life.</p>
+      
+     
+    
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 3:12-20</strong><strong class="w3-text-light-blue"> Not as though I had already attained, either were already perfect: but I 
+      follow after, if that I may apprehend that for which also I am apprehended</strong> or captured<strong class="w3-text-light-blue"> of Christ Jesus. Brethren, I count not myself to have 
+      apprehended: but this one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before, I press toward the mark for the prize of the high 
+      calling of God in Christ Jesus. Let us therefore, as many as be perfect, be thus minded: and if in anything ye be otherwise minded, God shall reveal even this unto you. Nevertheless, 
+      whereto we have already attained,</strong> Now he realized he had not attained to that place of perfection yet.<strong class="w3-text-light-blue"> let us walk by the same rule, let us 
+      mind the same thing. Brethren, be followers together of me, and mark them which walk so as ye have us for an ensample. (For many walk, of whom I have told you often, and now tell you 
+      even weeping, that they are the enemies of the cross of Christ:</strong> And we know in other gospels why he had to speak this way, because they refused to follow after the Spirit.
+      <strong class="w3-text-light-blue"> Whose end is destruction, whose God is their belly</strong> Or their own desires,<strong class="w3-text-light-blue"> and whose glory is in their shame, 
+      who mind earthly things.) For our conversation is in</strong> The Spirit, or in<strong class="w3-text-light-blue"> heaven; from whence also we look for the Saviour, the Lord Jesus 
+      Christ:</strong></p>
+
+    <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp.1</p>  
+
+    <p class="w3-justify">Ephesians 2:6<strong class="w3-text-red"></strong><strong class="w3-text-light-blue"> And hath raised us up together, and made us sit together in heavenly places in 
+      Christ Jesus:</strong> Now we know that Paul and the rest of them, God didn’t lift them off to some other planet, but heavenly places in the Spirit.  And this is what he is talking 
+      about; when Paul was caught up into the third heaven, he did not go anywhere.  Amen.  But the Spirit was revealed to him, the high order of God, the very highest order of God.  Amen.</p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 3:21</strong><strong class="w3-text-light-blue"> Who shall change our vile body, that it may be fashioned like unto his 
+      glorious body, according to the working whereby he is able even to subdue all things unto himself.</strong> And we know that we cannot do this.  Our job is to obey the Spirit.  Amen.</p>
+      
+    <p class="w3-justify"><strong class="w3-text-red">Philippians 4:3-17</strong><strong class="w3-text-light-blue"> And I intreat thee also, true yokefellow, help those women which laboured 
+      with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life. Rejoice in the Lord alway: and again I say, Rejoice. Let your moderation 
+      be known unto all men. The Lord is at hand.</strong> In other words, don’t be anxious.  Be moderate in all things.  Don’t be anxious before men.  Amen.
+      <strong class="w3-text-light-blue"> Be careful for nothing;</strong> Or don’t be anxious about that.<strong class="w3-text-light-blue"> but in every thing by prayer and supplication with 
+      thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus. Finally, brethren, 
+      whatsoever things are true,</strong> He is showing us how to live here<strong class="w3-text-light-blue"> whatsoever things are honest, whatsoever things are just, whatsoever things are 
+        pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.  Those things, which ye have both 
+        learned, and received, and heard, and seen in me, This is Paul. do: and the God of peace shall be with you.</strong> Do you hear what he is saying?  He was following Christ to the 
+        best of his knowledge, and he was not ashamed to say that.  But I am going to give you a real disappointment after awhile.  I hope you can bear it.  Out of the scriptures.  It will all 
+        be scriptures.<strong class="w3-text-light-blue"> But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye 
+        lacked opportunity. Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.</strong> I don't think we have reached that yet.  
+        Do you?<strong class="w3-text-light-blue"> I know both how to be abased</strong> Or to be put down,<strong class="w3-text-light-blue"> and I know how to abound: every where and in all 
+        things I am instructed both to be full and to be hungry, both to abound and to suffer need.</strong> Or to be made low and to be made prosperous.  Amen.  It seems like we have to go 
+        through these things in life.  We have to have the experience of these things if we are really going to go on and really know what he is saying here.
+        <strong class="w3-text-light-blue"> I can do all things through Christ which strengtheneth me.</strong> Not just some things but all things.
+        <strong class="w3-text-light-blue"> Notwithstanding ye have well done, that ye did communicate with my affliction.</strong> Or help in my affliction.
+        <strong class="w3-text-light-blue"> Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning 
+        giving and receiving, but ye only. For even in Thessalonica ye sent once and again unto my necessity.</strong> Now this is the verse that I want you to see.
+        <strong class="w3-text-light-blue"> Not because I desire a gift: but I desire fruit that may abound to your account.</strong> That the reward might be added to their account for their 
+        giving unto the work of the gospel; that Paul could go forth in the gospel and preach the gospel.  This is the law of God that anything that they do bears fruit.</p>
+        
+       
+      
+      <p class="w3-justify"><strong class="w3-text-red">Colossians 1:5-6</strong><strong class="w3-text-light-blue"> For this cause we also, since the day we heard it, do not cease to pray for 
+        you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding;</strong> Now this is what the Lord had shown me: the law of grace 
+        versus the law of the Spirit. Did you know that there is a difference between the law of grace and the law of the Spirit?  Did you know that the law of grace is for the believer in the 
+        nominal church, and that there is a great difference between that and the law of the Spirit for the Sons?  There is a great dividing line in the scriptures.  He gave me many 
+        illustrations today to prove it.  There is the gospel, and then there is the kingdom.  They are entirely different.  And yet you have to come through the law of grace to obtain the law 
+        of the kingdom.  This is why every once in a while he will bring someone out of the church system because he has called them from the foundation of the world, and they have been with 
+        God from the beginning, like the scripture says, to fulfill his work upon the earth as kings and priests unto him in the kingdom.  We are entirely different.  It is an entirely 
+        different message.  And I will try – with the help of the Spirit – to show you what our callings are.  This is why I said if you do not feel the true calling of God on your life, you 
+        won’t even understand.  But we will be responsible, for us who do understand.</p>
+
+      <p class="w3-right-align w3-text-light-gray" style="opacity: 0.5">pp.2</p>   
+
+      <p class="w3-justify"><strong class="w3-text-red">1 John 2:1-2</strong> He is speaking to the church.<strong class="w3-text-light-blue"> My little children, these things write I unto you, 
+        that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous: and he is the propitiation for our sins: and not for ours only, but also for the 
+        sins of the whole world.</strong> Now what is he saying here?  There is a church world that the blood of Christ constantly covers their sin because they are just walking in the flesh 
+        realm and following after salvation.  They are not called to the high order of Sonship, and so they can just kind of goof around.  You see people getting by with a lot of stuff, and it 
+        seems like all they have to do is ask God to forgive them and they are forgiven.  And they go right on their merry way and the next day or two, they do the same thing over, but they 
+        will never grow, because they are not called into the order of Sonship.  This is an entirely different order.  And believe me, before we get through tonight you probably will wish you 
+        were never called, when you see what the scripture says about it.</p>
+        
+      
+      
+      <p class="w3-justify"><strong class="w3-text-red">1 John 2:12-14</strong><strong class="w3-text-light-blue"> I write unto you, little children, because your sins are forgiven you for his 
+        name's sake. I write unto you, fathers,</strong> Wow, now that is different.<strong class="w3-text-light-blue"> because ye have known him that is from the beginning.</strong> We come 
+        out of the Father.  Do you remember the scriptures?  We come out of the Father.<strong class="w3-text-light-blue"> I write unto you, young men, because ye have overcome the wicked one. 
+        I write unto you, little children, because ye have known the Father.</strong> In a way they do, if the Lord decides to reveal him to them, if that is his plan.
+        <strong class="w3-text-light-blue"> I have written unto you, fathers, because ye have known him that is from the beginning.</strong> The Father hath begotten us.
+        <strong class="w3-text-light-blue"> I have written unto you, young men, because ye are strong, and the word of God abideth in you,</strong> You do not just hear it and then go on out 
+        to do your own thing, but the Word of God abides in you.<strong class="w3-text-light-blue"> and ye have overcome the wicked one.</strong> The children’s antidote…and you know what an 
+        antidote is.  If you take poison, you have to take something to counteract it.  Amen.  So the children’s antidote for failure is Christ’s blood and grace.</p>
+
+      <p class="w3-justify"><strong class="w3-text-red">1 John 1:9</strong><strong class="w3-text-light-blue"> If we confess our sins, he is faithful and just to forgive us our sins, and to 
+        cleanse us from all unrighteousness.</strong> He completely blots it out.  And having lived just in a saved state (and I praise God for that because it gives me a knowledge of this 
+        having lived without the Holy Ghost in just a saved, washed, born again experience), I know that it was impossible to live free from sin, absolutely impossible, because I did not have 
+        the Holy Ghost and the power within me to help me live an overcoming life.  I did not go out and do any gross sin.  Do you understand?  But, I mean, it was just impossible, the temper 
+        and the misjudgments and everything because we were not led by the Spirit.</p>  
+      
+      <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp.3</p> 
+    
+    
+      <p class="w3-justify"></p>   
+  
+
+      <p class="w3-justify"></p>
+  
+      
+      <p class="w3-justify"></p>   
+      
+    
+    
+    
+    
+      
+    
+
+     
+
+      
+      
+
+  </div>
+    
+
+    
+
+    
+
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+    <p class="w3-justify"><strong class="w3-text-red"></strong><strong class="w3-text-light-blue"></strong></p>
+    
+  
+
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+    <p class="w3-justify"><strong class="w3-text-light-blue"></strong><strong class="w3-text-red"></strong></p>
+    
+    
+        
+              
+   
+    
+
+
+
+<div class="w3-bottom ">
+    <div class="w3-bar w3-card w3-center w3-xlarge w3-indigo" style="background-image: url('space.jpg'); background-size: cover; " >
+      
+      <audio class="w3-padding w3-xxlarge" controls style="background-image: url('');">
+        <source src="ofts1.mp3" type="audio/mpeg">
+       </audio>
+     
+      
+  </div>
+  </div> 
+
+ <!-- Modal body -->
+    
+        <!-- Modal 1-->
+        
+    
+
+<!-- Second Grid 
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+-->
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
+<script src="script.js"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+
+</script>
+
+</body>
+</html>
